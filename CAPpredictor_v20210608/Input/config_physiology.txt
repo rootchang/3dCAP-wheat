@@ -1,0 +1,49 @@
+# photosynthesis
+# please note that the Asat = Amax_net(25oC) = Amax(25oC) - Rd(25oC).
+coef_leaf_Asat	-0.7508	9.9285	-1.4904 
+coef_leaf_alpha	-0.00413	0.02928	0.02681 
+coef_leaf_theta	0.01773	-0.14843	0.66176 
+coef_leaf_Rd	0	0.52176	0.35044
+coef_leaf_Asat_airT	-0.00197	0.09219	-0.07450	
+coef_leaf_Rd_airT	0	0.0518	-0.3075		
+   
+coef_culm_Asat	-0.7508	9.9285	-1.4904 
+coef_culm_alpha	-0.00413	0.02928	0.02681 
+coef_culm_theta	0.01773	-0.14843	0.66176 	
+coef_culm_Rd	0	0.52176	0.35044
+coef_culm_Asat_airT	-0.00197	0.09219	-0.07450	
+coef_culm_Rd_airT	0	0.0518	-0.3075				
+						
+coef_grain_Asat	0	0	4.04  			
+coef_grain_alpha	0	0	0.075 			
+coef_grain_theta	0	0	0.79 			
+coef_grain_Rd	0	0	2.48 		
+coef_grain_Asat_airT	-0.00163	0.08874	-0.20189	
+coef_grain_Rd_airT	0	0.0423	-0.1064		
+		
+coef_awn_Asat	0	0	8.15 		
+coef_awn_alpha	0	0	0.084 			
+coef_awn_theta	0	0	0.71 		
+coef_awn_Rd	0	0	0.424 			
+coef_awn_Asat_airT	-0.00163	0.08874	-0.20189	
+coef_awn_Rd_airT	0	0.0423	-0.1064		
+
+coef_leaf_Asat_coef	1
+coef_leaf_Rd_coef	1
+coef_culm_Asat_coef	1
+coef_culm_Rd_coef	1
+coef_grain_Asat_coef	1
+coef_grain_Rd_coef	1
+coef_awn_Asat_coef	1
+coef_awn_Rd_coef	1
+
+# nitrogen content
+leaf_NC	3.201014	3	2.888768391	2.514298415	1.99178
+grain_NC	1.4725
+awn_NC	1.57
+culm_NC	1.17333333	0.45
+
+# soil
+Kr_soil	0.1
+
+

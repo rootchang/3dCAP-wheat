@@ -1,0 +1,11 @@
+*********10:09:48 06/11/2021
+Scale(cm,pixels/cm: scale trace coordinates)
+40,76.5914: 3876.71,3124.75	813.433,3172.79	Scale
+### Image brightness adjustment coef.: 1.000000
+### Image rotation angle: 270
+### Image cropping coordinates(y1,y2;x1,x2): 595.91,4671.98;228.70,2521.16
+2-N1-1 (2).JPG
+2-N1-2 (2).JPG
+2-N1-3 (2).JPG
+2-N2-1 (2).JPG
+2-N2-2 (2).JPG

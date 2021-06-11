@@ -1,0 +1,14 @@
+# geographic info
+latitude	31
+
+# simulation parameters
+start_time	6
+end_time	12
+time_interv	1
+xmin	30
+xmax	70
+ymin	30
+ymax	70
+zmin	0
+zmax	120
+rayDense	0.05

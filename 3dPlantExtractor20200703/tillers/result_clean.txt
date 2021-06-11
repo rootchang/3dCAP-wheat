@@ -1,0 +1,10 @@
+*********09:56:16 06/11/2021
+File name
+	Leaf base height(cm)	Leaf length(cm)	Leaf angle(rad)	Leaf tip vertical length(cm)	Leaf tip horizontal length(cm)
+<<DSC_0134.JPG
+	9.55	23.72	0.753	-9.98	7.42	leaf
+	19.21	23.79	0.520	21.34	5.98	leaf
+	29.39	26.02	0.409	15.89	13.89	leaf
+	45.95	25.27	0.560	0.38	13.47	leaf
+	64.42	15.57	0.379	3.18	9.01	leaf
+	72.80	10.55	0.150	10.33	2.07	panicle

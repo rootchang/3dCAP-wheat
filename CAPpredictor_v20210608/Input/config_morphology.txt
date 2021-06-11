@@ -1,0 +1,58 @@
+# analytical parameters
+plantH_coef	1
+earLen_coef	1
+widLen_relation_coef	1
+leafAng_coef	1
+grainEnlarge_coef	1
+
+# canopy parameters
+plant_density	0.656
+tillerAng	0.087
+rowNum	5
+rowLen	100
+row_dist	20
+sowing_width	5
+
+# leaf parameters
+widLen_relation_flag_coef	0	0.0482	0.8874
+widFunc_flag	0.578	0.930	0.994	0.917	0.773	0.538	0.0
+widLen_relation_other_coef	0	0.0438	0.4155
+widFunc_other	0.561	0.898	0.978	0.981	0.851	0.595	0.0
+widLen_relation_developing_coef	0	0.0527	0.5072
+widFunc_developing	0.2	0.2	0.2	0.5	0.8	0.55	0.0
+
+randZRot_max	1.047
+tortAng	3.14
+tortAng_start_pos	0
+tortAng_end_pos	1
+
+# culm parameters
+stem_diameter	0.66	0.5	0.27
+stem_midH	30
+
+# spike parameters
+spikeletDens	1.53
+grainShrinkCoef	0.6
+earRachis_diameter	0.27
+spikeletBranchLen	0.15
+spikeletBranchThick	0.15
+
+Side-grain length	0.973166667
+Side-grain width	0.405125
+Mid-grain length	0.8435
+Mid-grain width	0.348740741
+Tri-spikelet to rachis angle	25.59325
+Side-grain to mid-grain angle	25.75553846
+Glume to mid-grain angle	25.75553846
+
+Awn to rachis angle (front view)	11.74333333
+Awn to rachis angle (side view)	9.569076923
+Upper spike awn length	6.72
+Middle spike awn length	5.83
+Lower spike awn length	3.39
+Awn base thickness	0.042473333
+Awn center thickness	0.02096
+Awn tip thickness	0.012006667
+
+
+

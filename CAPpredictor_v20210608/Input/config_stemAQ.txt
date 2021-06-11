@@ -1,0 +1,15 @@
+# stem architectural parameters
+stemLen	29
+stemDiameter	0.605
+
+# stem nitrogen content
+stemN	0.45
+
+# stem AQ data
+PPFD	2000	 1500	 1000	 700	 500	 300	 200	 100	 50	 0
+A	6.22 	6.67 	6.29 	6.22 	5.90 	4.77 	4.12 	2.34 	0.51 	-2.73
+CT	27.07 	25.07 	23.67 	22.69 	22.07 	21.05 	20.58 	21.02 	21.34 	20.86 
+
+# Temperature (T) response of photosynthetic parameters (P): P(T)=P(25)*(a*T^2 + b*T + c)
+coef_stem_Asat_airT	-0.00197	0.09219	-0.07450	
+coef_stem_Rd_airT	0	0.0518	-0.3075
