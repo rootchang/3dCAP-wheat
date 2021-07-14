@@ -22,7 +22,7 @@ if nargin == 0, action = 'start'; end
 
 switch(action)
     case 'start'
-        set(fig_handle, 'WindowButtonMotionFcn', 'tiller_analyzer move1');  
+        set(fig_handle, 'WindowButtonMotionFcn', 'tiller_analyzer move1');
     case 'move1'
         H = get(fig_handle,'UserData');
         if ~isempty(H)
