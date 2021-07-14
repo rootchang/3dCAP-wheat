@@ -195,7 +195,7 @@ switch(action)
                         set(fig_handle,'visible','off');
                         scale_length=input('The true length of the scale is (cm): ');
                         set(fig_handle,'visible','on');
-                        title('Step3/3: Left-click to assign key points of organs on tiller, end up with pressing TAB (stem and leaves) or 1 (spike), press q after finish.');
+                        title('Step3/3: Left-click to assign key points of tissues on tiller, end up with pressing TAB (stem and leaves) or 1 (spike), press q after finish.');
                         for i=1:length(xyList2(:,1))-1
                             plot([xyList2(i,1),xyList2(i+1,1)],[xyList2(i,2),xyList2(i+1,2)],'r-','lineWidth',1);
                             delete(plotPointHandle{end});

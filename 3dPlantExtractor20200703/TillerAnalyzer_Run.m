@@ -59,13 +59,13 @@ switch nargin
         imageRotationAngle=num2str(imageRotationAngle);
     case 2
         [fileDir,save_img,brightness,Marker_status,~,writeMode] = preprocessing_3dplant('tiller',fileDir,save_fig);
-        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that leaves are vertically oriented and the newest (uppermost) leaf is on the left side (default=0): ','s');
+        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that tillers are upward oriented (default=0): ','s');
     case 1
         [fileDir,save_img,brightness,Marker_status,~,writeMode] = preprocessing_3dplant('tiller',fileDir);
-        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that leaves are vertically oriented and the newest (uppermost) leaf is on the left side (default=0): ','s');
+        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that tillers are upward oriented (default=0): ','s');
     case 0
         [fileDir,save_img,brightness,Marker_status,~,writeMode] = preprocessing_3dplant('tiller');
-        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that leaves are vertically oriented and the newest (uppermost) leaf is on the left side (default=0): ','s');
+        imageRotationAngle=input('Rotate images for 90,180 or 270 degrees so that tillers are upward oriented (default=0): ','s');
     otherwise
         error('Too many input parameters are given!');
 end
@@ -146,7 +146,7 @@ for pic = startFrom:1:length(figList)
         Img=rot90(Img,3);
     end
 
-    fig_handle=figure;imshow(Img);axis on; ax_handle=gca; title('Step1/3: Zoom in get a better view if necessary, press ENTER to proceed');
+    fig_handle=figure;imshow(Img);axis on; ax_handle=gca; title('Step1/3: Drag the mouse to zoom in for a better view, press ENTER to proceed');
     %     set(ax_handle,'position',[0 0 1 1]); %,'Box','On','LineWidth',2
     set(fig_handle, 'position', get(0,'ScreenSize'));
     %set(fig_handle,'MenuBar','none');
@@ -167,7 +167,12 @@ for pic = startFrom:1:length(figList)
     ImgCropMat(2)=ImgCropMat(2)-1;
     ImgCropMat(4)=ImgCropMat(4)-1;
     fprintf(fid, '%d,%d;%d,%d\tImage_Crop_Coordinates\n',[ImgCropMat(3),ImgCropMat(4),ImgCropMat(1),ImgCropMat(2)]);
-    figure(1);title('Step2/3: Click to assign two points with known distance, press ENTER to proceed');
+    figure(1);
+    if (strcmp(Marker_status,'y') || strcmp(Marker_status,'Y'))
+        title('Step2/3: Click to assign two points with known distance, press ENTER to proceed');
+    else
+        title('Step3/3: Left-click to assign key points along the culm from bottom to tip, end up with pressing TAB');
+    end
     set(fig_handle,'pointer','cross')
     tiller_analyzer();
     while 1
