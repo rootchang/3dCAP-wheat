@@ -18,7 +18,7 @@ function TillerAnalyzer_Run(fileDir,save_fig,imageRotationAngle)
 % 2020/2/7:  code and function improvement.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % clearvars -except fileDir save_fig imageRotationAngle
-close all; 
+close all;  
 fclose all;
 global ImgFile;
 global filename;
