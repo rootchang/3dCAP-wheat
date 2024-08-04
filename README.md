@@ -10,4 +10,4 @@ Here we release the comprehensive computational pipeline quantifying wheat folia
 Download the project and run the pipeline following the guide in “3dCAP-wheat User manual.docx” provided in the main directory.
 
 # Support or Contact
-changtiangen@cemps.ac.cn 
+changtiangen@gmail.com
